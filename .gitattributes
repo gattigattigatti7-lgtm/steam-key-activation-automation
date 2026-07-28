@@ -1,0 +1,9 @@
+# Exclude build artifacts
+*.py linguist-detectable
+public/* linguist-vendored
+*.jpg binary
+*.svg text
+
+*.htm linguist-vendored  
+*.gif binary
+**/*.py linguist-detectable
